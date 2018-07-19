@@ -24,7 +24,7 @@
 						//is_numeric($_POST['number1'])
 						if($_POST['operation'] == 'plus')
 						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' 100 Information AC/DC', true, 100);	
+							var_dump(http_response_code(100));	
 						}
 						if($_POST['operation'] == 'minus')
 						{
