@@ -18,7 +18,7 @@
 				if(isset($_POST['submit']))
 				{
 					// Check number values
-					if(is_numeric($_POST['number1']) && is_numeric($_POST['number2']))
+					if(is_numeric($_POST['number1']))
 					{
 						// Calculate total
 						if($_POST['operation'] == 'plus')
