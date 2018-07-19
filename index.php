@@ -24,7 +24,7 @@
 						//is_numeric($_POST['number1'])
 						if($_POST['operation'] == 'plus')
 						{
-							$total = 1003/0;	
+							header($_SERVER['SERVER_PROTOCOL'] . ' 100 Information AC/DC', true, 100);	
 						}
 						if($_POST['operation'] == 'minus')
 						{
