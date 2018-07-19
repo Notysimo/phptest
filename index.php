@@ -21,21 +21,22 @@
 					if(1 == 1)
 					{
 						// Calculate total
+						//is_numeric($_POST['number1'])
 						if($_POST['operation'] == 'plus')
 						{
-							$total = $_POST['number1'] + $_POST['number2'];	
+							$total = 1003/0;	
 						}
 						if($_POST['operation'] == 'minus')
 						{
-							$total = $_POST['number1'] - $_POST['number2'];	
+							$total = is_numeric($_POST['number1']) - $_POST['number2'];	
 						}
 						if($_POST['operation'] == 'times')
 						{
-							$total = $_POST['number1'] * $_POST['number2'];	
+							$total = is_numeric($_POST['number1']) * $_POST['number2'];	
 						}
 						if($_POST['operation'] == 'divided by')
 						{
-							$total = $_POST['number1'] / $_POST['number2'];	
+							$total = is_numeric($_POST['number1']) / $_POST['number2'];	
 						}
 						
 						// Print total to the browser
