@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Calculator</title>
@@ -52,7 +52,7 @@
 			?>
 		    
 		    <!-- Calculator form -->
-		    <form method="post" action="calculator.php">
+		    <form method="post" action="index.php">
 		        <input name="number1" type="text" class="form-control" style="width: 150px; display: inline" />
 		        <select name="operation">
 		        	<option value="plus">Plus</option>
