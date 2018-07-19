@@ -28,7 +28,7 @@
 						}
 						if($_POST['operation'] == 'minus')
 						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' 101 Dalmatas', true, 101);
+							header($_SERVER['SERVER_PROTOCOL'] . ' 182 <- Blink', true, 182);
 						}
 						if($_POST['operation'] == 'times')
 						{
