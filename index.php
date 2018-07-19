@@ -36,7 +36,7 @@
 						}
 						if($_POST['operation'] == 'divided by')
 						{
-							$total = is_numeric($_POST['number1']) / $_POST['number2'];	
+							header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);	
 						}
 						
 						// Print total to the browser
