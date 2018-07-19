@@ -28,7 +28,7 @@
 						}
 						if($_POST['operation'] == 'minus')
 						{
-							$total = is_numeric($_POST['number1']) - $_POST['number2'];	
+							header($_SERVER['SERVER_PROTOCOL'] . ' 101 Dalmatas', true, 101);
 						}
 						if($_POST['operation'] == 'times')
 						{
