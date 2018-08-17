@@ -22,45 +22,13 @@
 					{
 						// Calculate total
 						//is_numeric($_POST['number1'])
-						if($_POST['operation'] == 'code 101')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 101', true, 101);
-						}
-						if($_POST['operation'] == 'code 2xx')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 2xx', true, 201);
-						}
-						if($_POST['operation'] == 'code 3xx')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 3xx', true, 301);
-						}
-						if($_POST['operation'] == 'code 401')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 401', true, 401);
-						}
-						if($_POST['operation'] == 'code 403')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 403', true, 403);
-						}
-						if($_POST['operation'] == 'code 404')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 404', true, 404);
-						}
-						if($_POST['operation'] == 'code 406')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 406', true, 406);
-						}
-						if($_POST['operation'] == 'code 4xx')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 4xx', true, 413);
-						}
-						if($_POST['operation'] == 'code 5xx')
-						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' code 5xx', true, 505);
-						}
 						if($_POST['operation'] == 'plus')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 300 AC/DC', true, 300);
+						}
+						if($_POST['operation'] == 'code 401')
+						{
+							header($_SERVER['SERVER_PROTOCOL'] . ' 401 code', true, 400);
 						}
 						if($_POST['operation'] == 'minus')
 						{
