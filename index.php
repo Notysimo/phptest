@@ -42,6 +42,10 @@
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 406 code', true, 406);
 						}
+						if($_POST['operation'] == 'code 4xx')
+						{
+							header($_SERVER['SERVER_PROTOCOL'] . ' 4xx code', true, 413);
+						}
 						if($_POST['operation'] == 'minus')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 182 <- Blink', true, 182);
