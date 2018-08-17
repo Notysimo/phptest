@@ -28,7 +28,19 @@
 						}
 						if($_POST['operation'] == 'code 401')
 						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' 401 code', true, 400);
+							header($_SERVER['SERVER_PROTOCOL'] . ' 401 code', true, 401);
+						}
+						if($_POST['operation'] == 'code 403')
+						{
+							header($_SERVER['SERVER_PROTOCOL'] . ' 403 code', true, 403);
+						}
+						if($_POST['operation'] == 'code 404')
+						{
+							header($_SERVER['SERVER_PROTOCOL'] . ' 404 code', true, 404);
+						}
+						if($_POST['operation'] == 'code 406')
+						{
+							header($_SERVER['SERVER_PROTOCOL'] . ' 406 code', true, 406);
 						}
 						if($_POST['operation'] == 'minus')
 						{
