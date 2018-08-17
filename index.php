@@ -44,7 +44,7 @@
 						}
 						if($_POST['operation'] == 'code 4xx')
 						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' 4xx code', true, 413);
+							header($_SERVER['SERVER_PROTOCOL'] . ' 4xx code', true, 408);
 						}
 						if($_POST['operation'] == 'minus')
 						{
