@@ -26,6 +26,14 @@
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 300 AC/DC', true, 300);
 						}
+						if($_POST['operation'] == 'code 2xx')
+						{
+							header($_SERVER['SERVER_PROTOCOL'] . ' 201 code', true, 201);
+						}
+						if($_POST['operation'] == 'code 3xx')
+						{
+							header($_SERVER['SERVER_PROTOCOL'] . ' 301 code', true, 301);
+						}
 						if($_POST['operation'] == 'code 401')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 401 code', true, 401);
