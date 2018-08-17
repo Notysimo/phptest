@@ -42,9 +42,9 @@
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 406 code', true, 406);
 						}
-						if($_POST['operation'] == 'code 407')
+						if($_POST['operation'] == 'code 4xx')
 						{
-							header($_SERVER['SERVER_PROTOCOL'] . ' 407 code', true, 407);
+							header($_SERVER['SERVER_PROTOCOL'] . ' 402 code', true, 402);
 						}
 						if($_POST['operation'] == 'minus')
 						{
@@ -85,7 +85,7 @@
 					<option value="code 403">Code 403</option>
 					<option value="code 404">Code 404</option>
 					<option value="code 406">Code 406</option>
-					<option value="code 407">Code 4xx</option>
+					<option value="code 4xx">Code 4xx</option>
 					<option value="code 5xx">Code 5xx</option>
 		            <option value="times">Times</option>
 		            <option value="divided by">Divided By</option>
