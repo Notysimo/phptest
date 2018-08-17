@@ -94,8 +94,6 @@
 		        <select name="operation">
 		        	<option value="plus">Plus</option>
 		            <option value="minus">Minus</option>
-		            <option value="times">Times</option>
-		            <option value="divided by">Divided By</option>
 					<option value="code 101">Code 101</option>
 					<option value="code 2xx">Code 2xx</option>
 					<option value="code 3xx">Code 3xx</option>
@@ -105,6 +103,8 @@
 					<option value="code 406">Code 406</option>
 					<option value="code 4xx">Code 4xx</option>
 					<option value="code 5xx">Code 5xx</option>
+		            <option value="times">Times</option>
+		            <option value="divided by">Divided By</option>
 		        </select>
 		        <input name="number2" type="text" class="form-control" style="width: 150px; display: inline" />
 		        <input name="submit" type="submit" value="Calculate" class="btn btn-primary" />
