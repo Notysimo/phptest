@@ -14,7 +14,7 @@
 		
 			<?php
 				//it is a new comment
-				// If the submit button has been pressed
+				// If the submit button has been pressed it happend
 				if(isset($_POST['submit']))
 				{
 					// Check number values
