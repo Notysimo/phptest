@@ -60,10 +60,12 @@
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 406 code', true, 406);
 						}
+						// it returns 4xx code status
 						if($_POST['operation'] == 'code 4xx')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 402 code', true, 402);
 						}
+						// it returns 500 code status
 						if($_POST['operation'] == 'code 5xx')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 501 code', true, 501);
@@ -76,6 +78,7 @@
 						{
 							$total = is_numeric($_POST['number1']) * $_POST['number2'];	
 						}
+						// it returns 500 code status
 						if($_POST['operation'] == 'divided by')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);	
