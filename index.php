@@ -13,7 +13,7 @@
 		<div class="container" style="margin-top: 50px">
 		
 			<?php
-			
+				//it is a new comment
 				// If the submit button has been pressed
 				if(isset($_POST['submit']))
 				{
