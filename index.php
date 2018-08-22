@@ -35,10 +35,12 @@
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 201 code', true, 201);
 						}
+						// it returns 300 code status
 						if($_POST['operation'] == 'code 3xx')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 301 code', true, 301);
 						}
+						// it returns 401 code status
 						if($_POST['operation'] == 'code 401')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 401 code', true, 401);
