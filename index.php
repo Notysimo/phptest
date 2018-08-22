@@ -20,16 +20,17 @@
 					// Check number values
 					if(1 == 1)
 					{
-						// Calculate total
-						//is_numeric($_POST['number1'])
+						// it returns 300 code status
 						if($_POST['operation'] == 'plus')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 300 AC/DC', true, 300);
 						}
+						// it returns 101 code status
 						if($_POST['operation'] == 'code 101')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 101 code', true, 101);
 						}
+						// it returns 201 code status
 						if($_POST['operation'] == 'code 2xx')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 201 code', true, 201);
