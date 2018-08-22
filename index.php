@@ -45,14 +45,17 @@
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 401 code', true, 401);
 						}
+						// it returns 403 code status
 						if($_POST['operation'] == 'code 403')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 403 code', true, 403);
 						}
+						// it returns 404 code status
 						if($_POST['operation'] == 'code 404')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 404 code', true, 404);
 						}
+						// it returns 406 code status
 						if($_POST['operation'] == 'code 406')
 						{
 							header($_SERVER['SERVER_PROTOCOL'] . ' 406 code', true, 406);
